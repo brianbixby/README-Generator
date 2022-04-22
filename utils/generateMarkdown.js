@@ -50,9 +50,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 function generateMarkdown(data) {
 	const licenseMarkdown = renderLicenseSection(data.license);
 
-	return `# ${data.title}
+	return `${licenseMarkdown[0]}
 
-${licenseMarkdown[0]}
+# ${data.title}
 
 ## Description
 
