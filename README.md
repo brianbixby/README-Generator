@@ -1,41 +1,46 @@
-# title
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README Generator
 
 ## Description
-
-description
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This command-line application allows users to quickly and easily create a README file. I utilized [Inquirer](https://www.npmjs.com/package/inquirer) in working with the user's input.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 
 ## Installation
 
-install instructions
+- Prerequisites: Node and NPM
+- Clone this repository and CD into it
+- Install dependencies (npm i)
 
 ## Usage
+- Run node index.js
+- Answer the prompts
 
-usage info
+## Screen Shot & Walkthrough video
 
-## Contributing
-
-contribution guidelines
-
-## Tests
-
-test insstructions
+![A screen shot of the README Generator in use.](./screen-shot.png)
+[Walkthrough video that demonstrates the functionality]()
 
 ## Questions
 
 If you have any questions please don't hesitate to reach out:
 [Github](https://github.com/brianbixby)
 [Email](mailto:brianbixby0@gmail.com)
+
+## Technology
+
+- [Github](https://github.com/brianbixby/README-Generator)
+- [Nodejs](https://nodejs.org/en/)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [FS](https://nodejs.dev/learn/the-nodejs-fs-module)
+- [Util](https://nodejs.org/api/util.html)
+
 
 ## License
 

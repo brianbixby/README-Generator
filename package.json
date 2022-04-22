@@ -1,13 +1,13 @@
 {
-  "name": "static-site",
+  "name": "README Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "This command-line application allows users to quickly and easily create a README",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brian Bixby",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.2"
   }

@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const util = require("util");
+
 const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown.js");
@@ -57,7 +58,6 @@ const questions = [
 
 async function writeToFile(fileName, data) {
 	try {
-		console.log("data: ", data);
 		const writeFilePromise = util.promisify(fs.writeFile)
 		await writeFilePromise(fileName, data);
 	}
@@ -71,7 +71,7 @@ async function init() {
 	try {
 		const data = await inquirer.prompt(questions);
 		const markdown = generateMarkdown(data);
-		await writeToFile("README.md", markdown);
+		await writeToFile("./dist/README.md", markdown);
 	}
 	catch (err) {
 		if (err.isTtyError) console.log("Prompt couldn't be rendered in the current environment");
