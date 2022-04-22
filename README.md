@@ -30,7 +30,7 @@ When creating an open source project on GitHub, it’s important to have a high-
 ## Product
 
 ![A screen shot of the README Generator in use.](./screen-shot.png)
-[Walkthrough video that demonstrates the functionality]()
+[Walkthrough video that demonstrates the functionality](https://watch.screencastify.com/v/FUxd2iqxS1E0XwX69ilB)
 
 ## Questions
 
